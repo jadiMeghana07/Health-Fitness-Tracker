@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f7ed;
+    color: #333;
+}
+
+header {
+    background: #4f7d32;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+.container {
+    width: 70%;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px #ccc;
+}
+
+h2 {
+    color: #4f7d32;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    border: 1px solid #aaa;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+button {
+    background: #4f7d32;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    margin: 10px 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #315522;
+}
+
+.progress {
+    width: 100%;
+    background: #ddd;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.progress-bar {
+    background: #6d9f45;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer {
+    background: #4f7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>BMI Calculator</h1>
+</header>
+
+<div class="container">
+
+    <h2>Calculate Your BMI</h2>
+
+    <label>Height (cm)</label>
+    <input type="number" id="bmiHeight">
+
+    <label>Weight (kg)</label>
+    <input type="number" id="bmiWeight">
+
+    <button onclick="calculateBMI()">
+        Calculate BMI
+    </button>
+
+    <h2 id="bmiResult"></h2>
+
+    <br>
+
+    <a href="tracker.html">
+        <button>← Back</button>
+    </a>
+
+    <a href="goals.html">
+        <button>Next →</button>
+    </a>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

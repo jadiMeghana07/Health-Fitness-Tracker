@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fitnessData>
+
+    <user>
+        <name>Student</name>
+        <age>20</age>
+        <height>170</height>
+        <weight>65</weight>
+    </user>
+
+    <dailyActivity>
+        <steps>8500</steps>
+        <calories>420</calories>
+        <water>2</water>
+        <workout>45</workout>
+    </dailyActivity>
+
+    <goals>
+        <stepsGoal>10000</stepsGoal>
+        <waterGoal>3</waterGoal>
+        <workoutGoal>60</workoutGoal>
+    </goals>
+
+</fitnessData>
